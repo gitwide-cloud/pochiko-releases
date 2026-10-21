@@ -1,31 +1,29 @@
 {
-  "channel": "preview",
-  "schemaVersion": 1,
   "addons": [
     {
-      "name": "OBS",
-      "url": "https://github.com/gitwide-cloud/pochiko-releases/releases/download/addons-2026.10.21-preview.4/Pochiko-OBS-1.0.0-win-x64.zip",
-      "requirements": "Requires compatible Pochiko, Awake, local OBS WebSocket and explicit image/projector setup. Starts disabled.",
-      "filename": "Pochiko-OBS-1.0.0-win-x64.zip",
-      "denId": "c2f628c7-bd1b-4f72-9afd-92eca2edf616",
-      "description": "Reset two configured side images once after OBS restarts and keep a source projector minimized.",
-      "id": "obs",
-      "limitations": "Image-path and window-state verification only. Sleep stops automation. Actual integrated restart acceptance pending.",
-      "size": 30641801,
-      "workerApiVersion": 2,
-      "version": "1.0.0",
-      "sha256": "7d7118ea037319766278b8083d159628bf29d05f3f73a967568375d38017c92e",
-      "source": {
-        "repository": "https://github.com/gitwide-cloud/pochiko",
-        "commit": "b118e04259f5ce896ceaebee90b5fb00c9f0b55a",
-        "path": "v4/addons/OBS"
-      },
-      "minimumPochikoVersion": "5.0.0-alpha.9",
       "permissions": [
         "obs.local-websocket",
         "obs.image-settings-opt-in",
         "windows.projector-minimize-opt-in"
-      ]
+      ],
+      "id": "obs",
+      "description": "Reset two configured side images once after OBS restarts and keep a source projector minimized.",
+      "filename": "Pochiko-OBS-1.0.1-win-x64.zip",
+      "version": "1.0.1",
+      "limitations": "Image-path and window-state verification only. Sleep stops automation. Actual integrated restart acceptance pending.",
+      "denId": "c2f628c7-bd1b-4f72-9afd-92eca2edf616",
+      "sha256": "98a7568e11b687e2551a43970398f720003377feba48b2c9a97b32c7d820b3bc",
+      "url": "https://github.com/gitwide-cloud/pochiko-releases/releases/download/addons-2026.10.21-preview.5/Pochiko-OBS-1.0.1-win-x64.zip",
+      "workerApiVersion": 2,
+      "size": 30642499,
+      "minimumPochikoVersion": "5.0.0-alpha.9",
+      "requirements": "Requires compatible Pochiko, Awake, local OBS WebSocket and explicit image/projector setup. Starts disabled.",
+      "name": "OBS",
+      "source": {
+        "repository": "https://github.com/gitwide-cloud/pochiko",
+        "path": "v4/addons/OBS",
+        "commit": "7affd0619510f5f6925ae5f7a361c7e5df503155"
+      }
     },
     {
       "version": "4.1.0",
@@ -98,5 +96,7 @@
       ],
       "name": "Zoom"
     }
-  ]
+  ],
+  "channel": "preview",
+  "schemaVersion": 1
 }
