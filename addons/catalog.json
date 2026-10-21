@@ -25,29 +25,6 @@
       "name": "PowerPoint"
     },
     {
-      "version": "4.1.0",
-      "filename": "Pochiko-Zoom-4.1.0-win-x64.zip",
-      "denId": "c6373561-c312-4ba2-ae73-f7e92dfcfdb6",
-      "id": "zoom",
-      "url": "https://github.com/gitwide-cloud/pochiko-releases/releases/download/addons-2026.10.21-preview.1/Pochiko-Zoom-4.1.0-win-x64.zip",
-      "source": {
-        "commit": "3c2f510bb2a2ae137fb80a1116a78459be28b333",
-        "repository": "https://github.com/gitwide-cloud/pochiko",
-        "path": "v4/addons/Zoom"
-      },
-      "sha256": "add624ef99bb2c60aca6f21733c73860c3fe866320a0e5d2f4eef11ccc376c50",
-      "workerApiVersion": 2,
-      "minimumPochikoVersion": "4.0.0-alpha.6",
-      "size": 67782318,
-      "permissions": [
-        "zoom.accessibility.read",
-        "zoom.media-controls-opt-in",
-        "zoom.local-share-opt-in",
-        "windows.inspect"
-      ],
-      "name": "Zoom"
-    },
-    {
       "version": "1.0.0",
       "filename": "Pochiko-PowerToys-1.0.0-win-x64.zip",
       "denId": "86be2985-ab05-45f2-a562-b17ae118037e",
@@ -70,6 +47,29 @@
         "powertoys.cli.read"
       ],
       "name": "PowerToys"
+    },
+    {
+      "version": "4.1.0",
+      "filename": "Pochiko-Zoom-4.1.0-win-x64.zip",
+      "denId": "c6373561-c312-4ba2-ae73-f7e92dfcfdb6",
+      "id": "zoom",
+      "url": "https://github.com/gitwide-cloud/pochiko-releases/releases/download/addons-2026.10.21-preview.1/Pochiko-Zoom-4.1.0-win-x64.zip",
+      "source": {
+        "commit": "3c2f510bb2a2ae137fb80a1116a78459be28b333",
+        "repository": "https://github.com/gitwide-cloud/pochiko",
+        "path": "v4/addons/Zoom"
+      },
+      "sha256": "add624ef99bb2c60aca6f21733c73860c3fe866320a0e5d2f4eef11ccc376c50",
+      "workerApiVersion": 2,
+      "minimumPochikoVersion": "4.0.0-alpha.6",
+      "size": 67782318,
+      "permissions": [
+        "zoom.accessibility.read",
+        "zoom.media-controls-opt-in",
+        "zoom.local-share-opt-in",
+        "windows.inspect"
+      ],
+      "name": "Zoom"
     }
   ],
   "schemaVersion": 1,
