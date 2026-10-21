@@ -1,5 +1,32 @@
 {
+  "channel": "preview",
+  "schemaVersion": 1,
   "addons": [
+    {
+      "name": "OBS",
+      "url": "https://github.com/gitwide-cloud/pochiko-releases/releases/download/addons-2026.10.21-preview.4/Pochiko-OBS-1.0.0-win-x64.zip",
+      "requirements": "Requires compatible Pochiko, Awake, local OBS WebSocket and explicit image/projector setup. Starts disabled.",
+      "filename": "Pochiko-OBS-1.0.0-win-x64.zip",
+      "denId": "c2f628c7-bd1b-4f72-9afd-92eca2edf616",
+      "description": "Reset two configured side images once after OBS restarts and keep a source projector minimized.",
+      "id": "obs",
+      "limitations": "Image-path and window-state verification only. Sleep stops automation. Actual integrated restart acceptance pending.",
+      "size": 30641801,
+      "workerApiVersion": 2,
+      "version": "1.0.0",
+      "sha256": "7d7118ea037319766278b8083d159628bf29d05f3f73a967568375d38017c92e",
+      "source": {
+        "repository": "https://github.com/gitwide-cloud/pochiko",
+        "commit": "b118e04259f5ce896ceaebee90b5fb00c9f0b55a",
+        "path": "v4/addons/OBS"
+      },
+      "minimumPochikoVersion": "5.0.0-alpha.9",
+      "permissions": [
+        "obs.local-websocket",
+        "obs.image-settings-opt-in",
+        "windows.projector-minimize-opt-in"
+      ]
+    },
     {
       "version": "4.1.0",
       "filename": "Pochiko-PowerPoint-4.1.0-win-x64.zip",
@@ -71,7 +98,5 @@
       ],
       "name": "Zoom"
     }
-  ],
-  "schemaVersion": 1,
-  "channel": "preview"
+  ]
 }
