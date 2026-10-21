@@ -1,0 +1,77 @@
+{
+  "addons": [
+    {
+      "version": "4.1.0",
+      "filename": "Pochiko-PowerPoint-4.1.0-win-x64.zip",
+      "denId": "144742c9-16ac-480c-8545-d7a18dbba011",
+      "id": "powerpoint",
+      "url": "https://github.com/gitwide-cloud/pochiko-releases/releases/download/addons-2026.10.21-preview.1/Pochiko-PowerPoint-4.1.0-win-x64.zip",
+      "source": {
+        "commit": "3c2f510bb2a2ae137fb80a1116a78459be28b333",
+        "repository": "https://github.com/gitwide-cloud/pochiko",
+        "path": "v4/addons/PowerPoint"
+      },
+      "sha256": "64b63c43946b0297f206e7cc021c334e2ef91cd16f0dc33e85f341e0cf453b35",
+      "workerApiVersion": 2,
+      "minimumPochikoVersion": "4.0.0-alpha.6",
+      "size": 67800354,
+      "permissions": [
+        "office.com",
+        "presentation.open-approved-path",
+        "presentation.navigate",
+        "windows.inspect",
+        "windows.foreground"
+      ],
+      "name": "PowerPoint"
+    },
+    {
+      "version": "4.1.0",
+      "filename": "Pochiko-Zoom-4.1.0-win-x64.zip",
+      "denId": "c6373561-c312-4ba2-ae73-f7e92dfcfdb6",
+      "id": "zoom",
+      "url": "https://github.com/gitwide-cloud/pochiko-releases/releases/download/addons-2026.10.21-preview.1/Pochiko-Zoom-4.1.0-win-x64.zip",
+      "source": {
+        "commit": "3c2f510bb2a2ae137fb80a1116a78459be28b333",
+        "repository": "https://github.com/gitwide-cloud/pochiko",
+        "path": "v4/addons/Zoom"
+      },
+      "sha256": "add624ef99bb2c60aca6f21733c73860c3fe866320a0e5d2f4eef11ccc376c50",
+      "workerApiVersion": 2,
+      "minimumPochikoVersion": "4.0.0-alpha.6",
+      "size": 67782318,
+      "permissions": [
+        "zoom.accessibility.read",
+        "zoom.media-controls-opt-in",
+        "zoom.local-share-opt-in",
+        "windows.inspect"
+      ],
+      "name": "Zoom"
+    },
+    {
+      "version": "1.0.0",
+      "filename": "Pochiko-PowerToys-1.0.0-win-x64.zip",
+      "denId": "86be2985-ab05-45f2-a562-b17ae118037e",
+      "id": "powertoys",
+      "url": "https://github.com/gitwide-cloud/pochiko-releases/releases/download/addons-2026.10.21-preview.1/Pochiko-PowerToys-1.0.0-win-x64.zip",
+      "source": {
+        "commit": "3c2f510bb2a2ae137fb80a1116a78459be28b333",
+        "repository": "https://github.com/gitwide-cloud/pochiko",
+        "path": "v4/addons/PowerToys"
+      },
+      "sha256": "55d75b9c367aa4ec001be99b2054b7e495939ea7d618b652a3e21a6fb89bf012",
+      "workerApiVersion": 2,
+      "minimumPochikoVersion": "4.0.0-alpha.6",
+      "size": 67749875,
+      "permissions": [
+        "windows.inspect",
+        "windows.layout-opt-in",
+        "windows.foreground-opt-in",
+        "office.com.read",
+        "powertoys.cli.read"
+      ],
+      "name": "PowerToys"
+    }
+  ],
+  "schemaVersion": 1,
+  "channel": "preview"
+}
